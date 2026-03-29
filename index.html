@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OM ART Dekorasyon</title>
+  <meta name="description"
+    content="Ankara'nın deneyimli dekorasyon firması Omart Dekorasyon; konut, ofis ve ticari alanlarda iç mimari tasarım, uygulama ve Jotun Boya bayiliği hizmetleri sunar. 500+ tamamlanmış proje. 0312 344 28 29">
+  <meta name="keywords"
+    content="ankara dekorasyon, iç mimari ankara, ofis dekorasyonu ankara, konut dekorasyonu, jotun boya ankara bayisi, ticari alan dekorasyonu">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Omart Dekorasyon | Ankara İç Mimari ve Dekorasyon">
+  <meta property="og:description"
+    content="2014'ten bu yana Ankara'da konut, ofis ve ticari alanlarda özgün dekorasyon çözümleri. Jotun Boya yetkili bayisi. Ücretsiz keşif için arayın.">
+  <meta property="og:url" content="https://www.omartdekorasyon.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.omartdekorasyon.com/logo.jpg">
+  <link rel="canonical" href="https://www.omartdekorasyon.com/">
+  <meta name="author" content="OM ART Dekorasyon">
+  <meta name="geo.region" content="TR-06">
+  <meta name="geo.placename" content="Ankara">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:site_name" content="OM ART Dekorasyon">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --cream: #FAF8F5;
+      --warm-white: #FFFEF9;
+      --sand: #E8E0D4;
+      --taupe: #C4B8A8;
+      --dark: #1C1917;
+      --charcoal: #3A3530;
+      --accent: #8B6F47;
+      --accent-light: #C4956A;
+      --text-muted: #7A7268;
+      --navy: #20407b;
+      --navy-dark: #182f5a;
+      --navy-light: #2a52a0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: var(--navy);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0 clamp(1.5rem, 5vw, 4rem);
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-img {
+      height: 54px;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      font-weight: 400;
+      position: relative;
+      padding-bottom: 2px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: white;
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: white;
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .nav-cta {
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: white !important;
+      padding: 0.5rem 1.4rem;
+      border: 1px solid rgba(255, 255, 255, 0.3) !important;
+      border-radius: 2px;
+      font-size: 0.78rem !important;
+      transition: all 0.3s !important;
+      backdrop-filter: blur(4px);
+    }
+
+    .nav-cta:hover {
+      background: white !important;
+      color: var(--navy) !important;
+    }
+
+    .nav-cta::after {
+      display: none !important;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 1.5px;
+      background: white;
+      transition: all 0.3s;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      padding-top: 76px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(3rem, 8vw, 8rem) clamp(2rem, 5vw, 5rem);
+      padding-right: 2rem;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--navy);
+      font-weight: 500;
+      margin-bottom: 2rem;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .hero-tag::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--navy);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--dark);
+      animation: fadeUp 0.8s 0.15s ease both;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--navy);
+    }
+
+    .hero p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      max-width: 420px;
+      animation: fadeUp 0.8s 0.3s ease both;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      animation: fadeUp 0.8s 0.45s ease both;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--navy);
+      color: white;
+      padding: 0.9rem 2.2rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background: var(--navy-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--navy);
+      padding: 0.9rem 2.2rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid var(--navy);
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-ghost:hover {
+      background: var(--navy);
+      color: white;
+    }
+
+    .hero-visual {
+      position: relative;
+      background: var(--sand);
+      overflow: hidden;
+      animation: fadeIn 1s 0.2s ease both;
+    }
+
+    .hero-visual-inner {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #E8DDD0 0%, #D4C8B8 40%, #C9B89A 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .room-illustration {
+      width: 80%;
+      max-width: 480px;
+      opacity: 0.85;
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      background: white;
+      padding: 1.2rem 1.6rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      animation: fadeUp 0.8s 0.6s ease both;
+    }
+
+    .hero-badge p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .hero-badge strong {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--navy);
+      display: block;
+    }
+
+    /* STATS */
+    .stats {
+      background: var(--navy-dark);
+      padding: 4rem clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 2rem;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stat:last-child {
+      border-right: none;
+    }
+
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      color: #93b4f0;
+      display: block;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.45);
+      margin-top: 0.5rem;
+      display: block;
+      font-weight: 300;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: clamp(4rem, 8vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--navy);
+      font-weight: 500;
+      margin-bottom: 1.2rem;
+    }
+
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--navy);
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 300;
+      line-height: 1.2;
+      color: var(--dark);
+      max-width: 500px;
+      margin-bottom: 1rem;
+    }
+
+    .section-title em {
+      font-style: italic;
+      color: var(--navy);
+    }
+
+    .section-sub {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      max-width: 520px;
+      margin-bottom: 3rem;
+      font-weight: 300;
+    }
+
+    /* SERVICES */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5px;
+      background: var(--sand);
+    }
+
+    .service-card {
+      background: var(--warm-white);
+      padding: 2.5rem 2rem;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: var(--navy);
+      transition: width 0.4s ease;
+    }
+
+    .service-card:hover {
+      background: var(--cream);
+    }
+
+    .service-card:hover::before {
+      width: 100%;
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 1.5rem;
+      color: var(--navy);
+    }
+
+    .service-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: var(--dark);
+      margin-bottom: 0.8rem;
+    }
+
+    .service-card p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .service-arrow {
+      margin-top: 1.5rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--navy);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      opacity: 0;
+      transform: translateX(-8px);
+      transition: all 0.3s;
+    }
+
+    .service-card:hover .service-arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* ABOUT */
+    .about-strip {
+      background: var(--warm-white);
+      padding: clamp(4rem, 8vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: center;
+    }
+
+    .about-visual {
+      position: relative;
+      aspect-ratio: 4/5;
+      background: linear-gradient(160deg, #DDD0C0, #C4B49A);
+      overflow: hidden;
+    }
+
+    .about-visual-accent {
+      position: absolute;
+      top: -1.5rem;
+      right: -1.5rem;
+      width: 60%;
+      height: 60%;
+      border: 1px solid var(--taupe);
+      z-index: -1;
+    }
+
+    .about-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      font-style: italic;
+      color: var(--navy);
+      line-height: 1.5;
+      border-left: 2px solid var(--navy);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    /* REFERENCES */
+    .refs {
+      background: var(--cream);
+    }
+
+    .refs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1px;
+      background: var(--sand);
+      margin-top: 3rem;
+    }
+
+    .ref-card {
+      background: var(--warm-white);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .ref-icon {
+      width: 44px;
+      height: 44px;
+      background: #e8eef8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--navy);
+    }
+
+    .ref-card h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    .ref-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .ref-tag {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      background: #e8eef8;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--navy);
+      text-transform: uppercase;
+      width: fit-content;
+      font-weight: 500;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.45);
+      line-height: 1.7;
+      margin-top: 1.2rem;
+      font-weight: 300;
+      max-width: 280px;
+    }
+
+    .footer-col h5 {
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 1.4rem;
+      font-weight: 400;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .footer-col a {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-weight: 300;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: white;
+    }
+
+    /* CONTACT BOXES */
+    .contact-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .contact-box {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: background 0.3s, border-color 0.3s;
+      text-decoration: none;
+    }
+
+    .contact-box:hover {
+      background: rgba(255, 255, 255, 0.13);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .contact-box-icon {
+      width: 38px;
+      height: 38px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #93b4f0;
+    }
+
+    .contact-box-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .contact-box-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      font-weight: 400;
+    }
+
+    .contact-box-value {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 300;
+    }
+
+    /* FOOTER BOTTOM */
+    .footer-bottom {
+      background: var(--navy-dark);
+      padding: 1.4rem clamp(1.5rem, 5vw, 4rem);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-bottom p {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.28);
+      font-weight: 300;
+    }
+
+    /* MOBILE */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 76px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--navy);
+      z-index: 99;
+      flex-direction: column;
+      padding: 2rem;
+      gap: 0;
+    }
+
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 300;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: color 0.2s;
+    }
+
+    .mobile-menu a:hover {
+      color: #93b4f0;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .hero-visual {
+        height: 50vw;
+        min-height: 280px;
+      }
+
+      .about-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .about-visual {
+        aspect-ratio: 16/9;
+      }
+
+      footer {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .stat {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .stat:last-child {
+        border-bottom: none;
+      }
+
+      footer {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-bottom {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">
+      <img src="logo.jpg" alt="Omart Dekorasyon" class="logo-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Anasayfa</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="faaliyet.html">Faaliyet Alanları</a></li>
+      <li><a href="referanslar.html">Referanslar</a></li>
+      <li><a href="iletisim.html" class="nav-cta">İletişime Geç</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Anasayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="faaliyet.html">Hizmetler</a>
+    <a href="referanslar.html">Referanslar</a>
+    <a href="iletisim.html">İletişim</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Mekan Tasarım Uzmanları</div>
+      <h1>Mekânınızı<br><em>Yeniden</em><br>Tasarlayın</h1>
+      <p>20 yılı aşkın deneyimle konut, ofis ve ticari alanlarda özgün dekorasyon çözümleri sunuyoruz. Her mekân bir
+        hikâye anlatır.</p>
+      <div class="hero-actions">
+        <a href="iletisim.html" class="btn-primary">Proje Başlat</a>
+        <a href="referanslar.html" class="btn-ghost">Referanslar</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-visual-inner">
+        <svg class="room-illustration" viewBox="0 0 480 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 280 L440 280 L440 380 L40 380 Z" fill="#C4A882" opacity="0.3" />
+          <path d="M40 80 L240 80 L240 280 L40 280 Z" fill="#EDE5D8" opacity="0.5" />
+          <path d="M240 80 L440 80 L440 280 L240 280 Z" fill="#E0D5C5" opacity="0.5" />
+          <line x1="40" y1="80" x2="440" y2="80" stroke="#C4A882" stroke-width="1" />
+          <line x1="40" y1="80" x2="40" y2="280" stroke="#C4A882" stroke-width="1" />
+          <line x1="440" y1="80" x2="440" y2="280" stroke="#C4A882" stroke-width="1" />
+          <line x1="240" y1="80" x2="240" y2="280" stroke="#C4A882" stroke-width="0.5" stroke-dasharray="4 4" />
+          <rect x="100" y="220" width="180" height="55" rx="4" fill="#8B6F47" opacity="0.7" />
+          <rect x="100" y="210" width="180" height="20" rx="3" fill="#6B5235" opacity="0.7" />
+          <rect x="100" y="210" width="20" height="65" rx="3" fill="#6B5235" opacity="0.7" />
+          <rect x="260" y="210" width="20" height="65" rx="3" fill="#6B5235" opacity="0.7" />
+          <rect x="115" y="215" width="50" height="30" rx="8" fill="#C4956A" opacity="0.6" />
+          <rect x="175" y="215" width="50" height="30" rx="8" fill="#C4956A" opacity="0.6" />
+          <rect x="232" y="215" width="32" height="30" rx="8" fill="#C4956A" opacity="0.6" />
+          <rect x="155" y="265" width="90" height="12" rx="2" fill="#5A4A3A" opacity="0.6" />
+          <rect x="162" y="277" width="6" height="14" fill="#5A4A3A" opacity="0.5" />
+          <rect x="228" y="277" width="6" height="14" fill="#5A4A3A" opacity="0.5" />
+          <line x1="340" y1="280" x2="340" y2="150" stroke="#8B6F47" stroke-width="3" />
+          <ellipse cx="340" cy="148" rx="28" ry="12" fill="#C4956A" opacity="0.5" />
+          <line x1="330" y1="280" x2="350" y2="280" stroke="#8B6F47" stroke-width="4" stroke-linecap="round" />
+          <rect x="70" y="248" width="16" height="28" rx="2" fill="#8B6F47" opacity="0.4" />
+          <ellipse cx="78" cy="240" rx="22" ry="28" fill="#6B8F5E" opacity="0.6" />
+          <ellipse cx="65" cy="250" rx="14" ry="18" fill="#5A7A4E" opacity="0.5" />
+          <ellipse cx="92" cy="248" rx="12" ry="16" fill="#7AA06A" opacity="0.5" />
+          <rect x="90" y="115" width="70" height="50" rx="1" fill="#8B6F47" opacity="0.25" />
+          <rect x="93" y="118" width="64" height="44" fill="#C4A882" opacity="0.3" />
+          <rect x="300" y="100" width="100" height="130" rx="1" fill="#B8D4E8" opacity="0.4" />
+          <line x1="350" y1="100" x2="350" y2="230" stroke="#C4A882" stroke-width="1" />
+          <line x1="300" y1="165" x2="400" y2="165" stroke="#C4A882" stroke-width="1" />
+          <path d="M300 100 L260 160 L300 230 Z" fill="#FFF8E0" opacity="0.08" />
+        </svg>
+      </div>
+      <div class="hero-badge">
+        <p>Tamamlanan Proje</p>
+        <strong>500+</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Yıl Deneyim</span></div>
+    <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Tamamlanan Proje</span></div>
+    <div class="stat"><span class="stat-num">12</span><span class="stat-label">Uzman Kadro</span></div>
+    <div class="stat"><span class="stat-num">%100</span><span class="stat-label">Müşteri Memnuniyeti</span></div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="section" id="hizmetler">
+    <div class="section-label">Faaliyet Alanları</div>
+    <h2 class="section-title">Her Mekân İçin<br><em>Özel Çözümler</em></h2>
+    <p class="section-sub">Konuttan ticarete, ofisten kamusal alanlara kadar her türlü mekânda yüksek kaliteli
+      dekorasyon hizmeti sunuyoruz.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 42V18L24 6l18 12v24H6z" />
+          <path d="M18 42V30h12v12" />
+          <path d="M14 22h4m8 0h4m-12 6h8" />
+        </svg>
+        <h3>Konut Dekorasyonu</h3>
+        <p>Yaşam alanlarınızı kişiliğinizi yansıtan, işlevsel ve estetik mekânlara dönüştürüyoruz.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="4" y="10" width="40" height="28" rx="2" />
+          <path d="M14 10V6h20v4M14 28h20M20 22h8" />
+        </svg>
+        <h3>Ofis Tasarımı</h3>
+        <p>Verimliliği artıran, kurumsal kimliğinizi yansıtan modern ofis tasarımı çözümleri.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 42V20l10-10h20l10 10v22H4z" />
+          <path d="M18 42V30h12v12" />
+          <circle cx="24" cy="18" r="4" />
+        </svg>
+        <h3>Ticari Alanlar</h3>
+        <p>Mağaza, restoran ve otel gibi ticari mekânların müşteri deneyimini maksimize eden tasarımı.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M8 40V16L24 8l16 8v24H8z" />
+          <path d="M16 24h16M16 30h16M16 36h8" />
+        </svg>
+        <h3>Proje Yönetimi</h3>
+        <p>Tasarımdan uygulamaya tüm süreci yönetiyor, zamanında ve bütçe dahilinde teslimat sağlıyoruz.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="24" cy="24" r="18" />
+          <path d="M24 14v10l6 6" />
+          <path d="M8 24h4M36 24h4M24 8v4M24 36v4" />
+        </svg>
+        <h3>3D Görselleştirme</h3>
+        <p>Projenizi hayata geçirmeden önce gerçekçi 3D render ve sanal tur imkânı sunuyoruz.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+      <div class="service-card">
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 38l10-10 8 8 10-14 8 8" />
+          <path d="M4 44h40" />
+        </svg>
+        <h3>Danışmanlık</h3>
+        <p>Bütçenize ve ihtiyaçlarınıza uygun en doğru dekorasyon kararlarını almanızda rehberlik ediyoruz.</p>
+        <span class="service-arrow">Keşfet →</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-strip" id="hakkimizda">
+    <div class="about-visual">
+      <div
+        style="width:100%;height:100%;background:linear-gradient(160deg,#DDD0C0 0%,#C4B49A 60%,#B09A80 100%);display:flex;align-items:center;justify-content:center;">
+        <svg viewBox="0 0 300 380" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70%;opacity:0.7">
+          <rect x="30" y="30" width="240" height="320" rx="2" fill="#EDE5D8" opacity="0.4" />
+          <rect x="50" y="60" width="80" height="120" fill="#8B6F47" opacity="0.3" />
+          <rect x="170" y="60" width="80" height="120" fill="#8B6F47" opacity="0.2" />
+          <rect x="50" y="200" width="200" height="120" fill="#8B6F47" opacity="0.25" />
+          <circle cx="150" cy="150" r="50" fill="#C4956A" opacity="0.15" />
+          <line x1="50" y1="195" x2="250" y2="195" stroke="#8B6F47" stroke-width="1" opacity="0.4" />
+        </svg>
+      </div>
+      <div class="about-visual-accent"></div>
+    </div>
+    <div class="about-content">
+      <div class="section-label">Hakkımızda</div>
+      <h2 class="section-title">Estetik ve<br><em>İşlevsellik</em><br>Bir Arada</h2>
+      <blockquote class="about-quote">"Her mekân, içinde yaşayanın ruhunu yansıtmalı."</blockquote>
+      <p style="font-size:0.92rem;line-height:1.8;color:var(--text-muted);font-weight:300;margin-bottom:1.5rem;">
+        2003 yılından bu yana Ankara merkezli olarak faaliyet gösteren Omart Dekorasyon, konut ve ticari alanlarda özgün
+        tasarım çözümleri sunmaktadır.
+      </p>
+      <p style="font-size:0.92rem;line-height:1.8;color:var(--text-muted);font-weight:300;margin-bottom:2rem;">
+        Türkiye genelinde 500'ü aşkın projeyi başarıyla tamamlayan deneyimli ekibimiz, müşteri memnuniyetini her zaman
+        ön planda tutar.
+      </p>
+      <a href="iletisim.html" class="btn-primary">Bize Ulaşın</a>
+    </div>
+  </section>
+
+  <!-- REFERENCES -->
+  <section class="section refs" id="referanslar">
+    <div class="section-label">Referanslar</div>
+    <h2 class="section-title">Güvendikleri<br><em>Markalar</em></h2>
+    <p class="section-sub">Yıllar içinde yüzlerce kurumsal ve bireysel müşteriye hizmet verdik.</p>
+
+    <div class="refs-grid">
+      <div class="ref-card">
+        <div class="ref-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <path d="M3 21h18M9 21V7l6-4v18" />
+          </svg></div>
+        <span class="ref-tag">Konut</span>
+        <h4>Lüks Konut Projeleri</h4>
+        <p>Ankara, İstanbul ve İzmir'deki premium konut projelerinde iç mekan tasarımı hizmetleri.</p>
+      </div>
+      <div class="ref-card">
+        <div class="ref-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2" />
+            <path d="M8 21h8M12 17v4" />
+          </svg></div>
+        <span class="ref-tag">Kurumsal</span>
+        <h4>Ofis & Kurumsal Alanlar</h4>
+        <p>Büyük ölçekli şirketlerin genel merkez ve şube ofislerinde tasarım ve uygulama projeleri.</p>
+      </div>
+      <div class="ref-card">
+        <div class="ref-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9,22 9,12 15,12 15,22" />
+          </svg></div>
+        <span class="ref-tag">Ticari</span>
+        <h4>Otel & Restoran</h4>
+        <p>Konaklama ve yeme-içme sektöründe atmosfer yaratan, deneyim odaklı mekan tasarımları.</p>
+      </div>
+      <div class="ref-card">
+        <div class="ref-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <path d="M4 22V12M20 22V12M2 12h20M12 2L2 12h20L12 2z" />
+          </svg></div>
+        <span class="ref-tag">Kamusal</span>
+        <h4>Kamu Binaları</h4>
+        <p>Belediyeler ve kamu kurumlarına ait binaların modernizasyon ve dekorasyon çalışmaları.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="iletisim">
+    <div class="footer-brand">
+      <img src="logo.jpg" alt="Omart Dekorasyon" style="height:50px;width:auto;object-fit:contain;">
+      <p>20 yılı aşkın deneyimle Ankara'dan Türkiye'ye mekan tasarımı ve dekorasyon hizmetleri.</p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Sayfalar</h5>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="faaliyet.html">Faaliyet Alanları</a></li>
+        <li><a href="referanslar.html">Referanslar</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>İletişim</h5>
+      <div class="contact-boxes">
+        <a href="tel:+903123442829" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">Telefon</span>
+            <span class="contact-box-value">+90 (312) 344 28 29</span>
+          </div>
+        </a>
+        <a href="mailto:info@omartdekorasyon.com" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">E-posta</span>
+            <span class="contact-box-value">info@omartdekorasyon.com</span>
+          </div>
+        </a>
+        <a href="iletisim.html" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">Adres</span>
+            <span class="contact-box-value">Ayvalı Mah. Gazze Cad. 52/B Etlik/ANKARA</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <p>© 2026 Omart Dekorasyon. Tüm hakları saklıdır.</p>
+    <p>Gizlilik Politikası · Kullanım Koşulları</p>
+  </div>
+
+  <script>
+    function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-card, .ref-card, .stat, .contact-box').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+
+</html>

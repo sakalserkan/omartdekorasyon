@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkımızda - OM ART Dekorasyon</title>
+  <meta name="description"
+    content="Omart Dekorasyon, 2014 yılında kurulan Ankara merkezli iç mimari ve dekorasyon firmasıdır. Uluslararası kalite standartlarında hizmet, uzman kadro ve 500+ başarılı proje.">
+  <meta property="og:title" content="Hakkımızda | Omart Dekorasyon Ankara">
+  <meta property="og:description"
+    content="2014'ten bu yana Ankara'da faaliyet gösteren Omart Dekorasyon ekibi ve değerleri hakkında bilgi alın.">
+  <meta property="og:url" content="https://www.omartdekorasyon.com/hakkimizda.html">
+  <link rel="canonical" href="https://www.omartdekorasyon.com/hakkimizda.html">
+  <meta name="author" content="OM ART Dekorasyon">
+  <meta name="geo.region" content="TR-06">
+  <meta name="geo.placename" content="Ankara">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:site_name" content="OM ART Dekorasyon">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --cream: #FAF8F5;
+      --warm-white: #FFFEF9;
+      --sand: #E8E0D4;
+      --taupe: #C4B8A8;
+      --dark: #1C1917;
+      --charcoal: #3A3530;
+      --accent: #8B6F47;
+      --accent-light: #C4956A;
+      --text-muted: #7A7268;
+      --navy: #20407b;
+      --navy-dark: #182f5a;
+      --navy-light: #2a52a0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: var(--navy);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0 clamp(1.5rem, 5vw, 4rem);
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-img {
+      height: 54px;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      font-weight: 400;
+      position: relative;
+      padding-bottom: 2px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: white;
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: white;
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .nav-cta {
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: white !important;
+      padding: 0.5rem 1.4rem;
+      border: 1px solid rgba(255, 255, 255, 0.3) !important;
+      border-radius: 2px;
+      font-size: 0.78rem !important;
+      transition: all 0.3s !important;
+      backdrop-filter: blur(4px);
+    }
+
+    .nav-cta:hover {
+      background: white !important;
+      color: var(--navy) !important;
+    }
+
+    .nav-cta::after {
+      display: none !important;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 1.5px;
+      background: white;
+      transition: all 0.3s;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      padding-top: 76px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(3rem, 8vw, 8rem) clamp(2rem, 5vw, 5rem);
+      padding-right: 2rem;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--navy);
+      font-weight: 500;
+      margin-bottom: 2rem;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .hero-tag::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--navy);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--dark);
+      animation: fadeUp 0.8s 0.15s ease both;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--navy);
+    }
+
+    .hero p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      max-width: 420px;
+      animation: fadeUp 0.8s 0.3s ease both;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      animation: fadeUp 0.8s 0.45s ease both;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--navy);
+      color: white;
+      padding: 0.9rem 2.2rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary:hover {
+      background: var(--navy-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--navy);
+      padding: 0.9rem 2.2rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid var(--navy);
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-ghost:hover {
+      background: var(--navy);
+      color: white;
+    }
+
+    .hero-visual {
+      position: relative;
+      background: var(--sand);
+      overflow: hidden;
+      animation: fadeIn 1s 0.2s ease both;
+    }
+
+    .hero-visual-inner {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #E8DDD0 0%, #D4C8B8 40%, #C9B89A 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .room-illustration {
+      width: 80%;
+      max-width: 480px;
+      opacity: 0.85;
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      background: white;
+      padding: 1.2rem 1.6rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      animation: fadeUp 0.8s 0.6s ease both;
+    }
+
+    .hero-badge p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .hero-badge strong {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--navy);
+      display: block;
+    }
+
+    /* STATS */
+    .stats {
+      background: var(--navy-dark);
+      padding: 4rem clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 2rem;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stat:last-child {
+      border-right: none;
+    }
+
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      color: #93b4f0;
+      display: block;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.45);
+      margin-top: 0.5rem;
+      display: block;
+      font-weight: 300;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: clamp(4rem, 8vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--navy);
+      font-weight: 500;
+      margin-bottom: 1.2rem;
+    }
+
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--navy);
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 300;
+      line-height: 1.2;
+      color: var(--dark);
+      max-width: 500px;
+      margin-bottom: 1rem;
+    }
+
+    .section-title em {
+      font-style: italic;
+      color: var(--navy);
+    }
+
+    .section-sub {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      max-width: 520px;
+      margin-bottom: 3rem;
+      font-weight: 300;
+    }
+
+    /* SERVICES */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5px;
+      background: var(--sand);
+    }
+
+    .service-card {
+      background: var(--warm-white);
+      padding: 2.5rem 2rem;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: var(--navy);
+      transition: width 0.4s ease;
+    }
+
+    .service-card:hover {
+      background: var(--cream);
+    }
+
+    .service-card:hover::before {
+      width: 100%;
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 1.5rem;
+      color: var(--navy);
+    }
+
+    .service-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: var(--dark);
+      margin-bottom: 0.8rem;
+    }
+
+    .service-card p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .service-arrow {
+      margin-top: 1.5rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--navy);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      opacity: 0;
+      transform: translateX(-8px);
+      transition: all 0.3s;
+    }
+
+    .service-card:hover .service-arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* ABOUT */
+    .about-strip {
+      background: var(--warm-white);
+      padding: clamp(4rem, 8vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: center;
+    }
+
+    .about-visual {
+      position: relative;
+      aspect-ratio: 4/5;
+      background: linear-gradient(160deg, #DDD0C0, #C4B49A);
+      overflow: hidden;
+    }
+
+    .about-visual-accent {
+      position: absolute;
+      top: -1.5rem;
+      right: -1.5rem;
+      width: 60%;
+      height: 60%;
+      border: 1px solid var(--taupe);
+      z-index: -1;
+    }
+
+    .about-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      font-style: italic;
+      color: var(--navy);
+      line-height: 1.5;
+      border-left: 2px solid var(--navy);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    /* REFERENCES */
+    .refs {
+      background: var(--cream);
+    }
+
+    .refs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1px;
+      background: var(--sand);
+      margin-top: 3rem;
+    }
+
+    .ref-card {
+      background: var(--warm-white);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .ref-icon {
+      width: 44px;
+      height: 44px;
+      background: #e8eef8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--navy);
+    }
+
+    .ref-card h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    .ref-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .ref-tag {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      background: #e8eef8;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--navy);
+      text-transform: uppercase;
+      width: fit-content;
+      font-weight: 500;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy);
+      padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.45);
+      line-height: 1.7;
+      margin-top: 1.2rem;
+      font-weight: 300;
+      max-width: 280px;
+    }
+
+    .footer-col h5 {
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 1.4rem;
+      font-weight: 400;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .footer-col a {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-weight: 300;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: white;
+    }
+
+    /* CONTACT BOXES */
+    .contact-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .contact-box {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: background 0.3s, border-color 0.3s;
+      text-decoration: none;
+    }
+
+    .contact-box:hover {
+      background: rgba(255, 255, 255, 0.13);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .contact-box-icon {
+      width: 38px;
+      height: 38px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #93b4f0;
+    }
+
+    .contact-box-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .contact-box-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      font-weight: 400;
+    }
+
+    .contact-box-value {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 300;
+    }
+
+    /* FOOTER BOTTOM */
+    .footer-bottom {
+      background: var(--navy-dark);
+      padding: 1.4rem clamp(1.5rem, 5vw, 4rem);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-bottom p {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.28);
+      font-weight: 300;
+    }
+
+    /* MOBILE */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 76px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--navy);
+      z-index: 99;
+      flex-direction: column;
+      padding: 2rem;
+      gap: 0;
+    }
+
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 300;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: color 0.2s;
+    }
+
+    .mobile-menu a:hover {
+      color: #93b4f0;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* PAGE HERO BANNER */
+    .page-hero {
+      padding-top: 76px;
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(45deg, transparent, transparent 60px,
+          rgba(255, 255, 255, 0.015) 60px, rgba(255, 255, 255, 0.015) 61px);
+    }
+
+    .page-hero-inner {
+      position: relative;
+      z-index: 1;
+      padding: 5rem clamp(1.5rem, 5vw, 4rem) 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .page-hero-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .page-hero-breadcrumb a {
+      color: rgba(255, 255, 255, 0.4);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .page-hero-breadcrumb a:hover {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .page-hero-breadcrumb span {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .page-hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      font-weight: 300;
+      color: white;
+      line-height: 1.1;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .page-hero h1 em {
+      font-style: italic;
+      color: #93b4f0;
+    }
+
+    .page-hero-desc {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.55);
+      font-weight: 300;
+      line-height: 1.7;
+      max-width: 560px;
+      animation: fadeUp 0.8s 0.15s ease both;
+    }
+
+    .page-hero-bar {
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, #93b4f0 0%, var(--navy) 100%);
+      margin-top: 2rem;
+    }
+
+    /* ABOUT INTRO */
+    .about-intro {
+      padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(3rem, 6vw, 7rem);
+      align-items: center;
+      background: var(--warm-white);
+    }
+
+    .about-intro-text .section-label {
+      margin-bottom: 1.2rem;
+    }
+
+    .about-intro-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 300;
+      line-height: 1.2;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+    }
+
+    .about-intro-text h2 em {
+      font-style: italic;
+      color: var(--navy);
+    }
+
+    .about-intro-text p {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-bottom: 1.2rem;
+    }
+
+    .about-intro-visual {
+      position: relative;
+    }
+
+    .about-intro-img-wrap {
+      aspect-ratio: 3/4;
+      background: linear-gradient(160deg, #c8d8f0 0%, #8ba8d8 50%, #20407b 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: visible;
+    }
+
+    .about-intro-badge {
+      position: absolute;
+      bottom: -1.5rem;
+      left: -1.5rem;
+      background: var(--navy);
+      color: white;
+      padding: 1.4rem 1.8rem;
+      box-shadow: 0 12px 40px rgba(32, 64, 123, 0.3);
+    }
+
+    .about-intro-badge strong {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem;
+      font-weight: 300;
+      color: #93b4f0;
+      display: block;
+      line-height: 1;
+    }
+
+    .about-intro-badge span {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* VALUES */
+    .values-strip {
+      background: var(--cream);
+      padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5px;
+      background: var(--sand);
+      margin-top: 3rem;
+    }
+
+    .value-card {
+      background: var(--warm-white);
+      padding: 2.5rem 2rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s;
+    }
+
+    .value-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 0;
+      background: var(--navy);
+      transition: height 0.4s ease;
+    }
+
+    .value-card:hover {
+      background: var(--cream);
+    }
+
+    .value-card:hover::before {
+      height: 100%;
+    }
+
+    .value-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: var(--sand);
+      line-height: 1;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .value-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--dark);
+      margin-bottom: 0.8rem;
+    }
+
+    .value-card p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    /* STATS BAND */
+    .stats-band {
+      background: var(--navy-dark);
+      padding: 4rem clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .stat-band-item {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .stat-band-item:last-child {
+      border-right: none;
+    }
+
+    .stat-band-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.2rem;
+      font-weight: 300;
+      color: #93b4f0;
+      display: block;
+      line-height: 1;
+    }
+
+    .stat-band-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+      margin-top: 0.6rem;
+      display: block;
+      font-weight: 300;
+    }
+
+    /* WHY US */
+    .why-us {
+      background: var(--warm-white);
+      padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .why-us-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(3rem, 6vw, 7rem);
+      align-items: start;
+      margin-top: 3rem;
+    }
+
+    .why-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .why-item {
+      display: flex;
+      gap: 1.2rem;
+      align-items: flex-start;
+      padding: 1.5rem;
+      background: var(--cream);
+      border-left: 2px solid var(--sand);
+      transition: border-color 0.3s, background 0.3s;
+    }
+
+    .why-item:hover {
+      border-color: var(--navy);
+      background: white;
+    }
+
+    .why-item-icon {
+      width: 40px;
+      height: 40px;
+      background: #e8eef8;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--navy);
+      flex-shrink: 0;
+    }
+
+    .why-item-body h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--dark);
+      margin-bottom: 0.3rem;
+    }
+
+    .why-item-body p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .why-visual {
+      position: sticky;
+      top: 100px;
+    }
+
+    .why-quote-block {
+      background: var(--navy);
+      padding: 3rem 2.5rem;
+      position: relative;
+      margin-bottom: 1.5rem;
+    }
+
+    .why-quote-block::before {
+      content: '"';
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 8rem;
+      color: rgba(255, 255, 255, 0.08);
+      position: absolute;
+      top: -1rem;
+      left: 1.5rem;
+      line-height: 1;
+    }
+
+    .why-quote-block p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      color: white;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+
+    .why-quote-block cite {
+      display: block;
+      margin-top: 1.2rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93b4f0;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .why-cta-block {
+      background: var(--sand);
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .why-cta-block p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    @media (max-width: 1024px) {
+      .about-intro {
+        grid-template-columns: 1fr;
+      }
+
+      .about-intro-visual {
+        display: none;
+      }
+
+      .why-us-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .why-visual {
+        position: static;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .stats-band {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .stat-band-item {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .stat-band-item:last-child {
+        border-bottom: none;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .hero-visual {
+        height: 50vw;
+        min-height: 280px;
+      }
+
+      .about-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .about-visual {
+        aspect-ratio: 16/9;
+      }
+
+      footer {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .stat {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .stat:last-child {
+        border-bottom: none;
+      }
+
+      footer {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-bottom {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">
+      <img src="logo.jpg" alt="Omart Dekorasyon" class="logo-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Anasayfa</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="faaliyet.html">Faaliyet Alanları</a></li>
+      <li><a href="referanslar.html">Referanslar</a></li>
+      <li><a href="iletisim.html" class="nav-cta">İletişime Geç</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Anasayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="faaliyet.html">Hizmetler</a>
+    <a href="referanslar.html">Referanslar</a>
+    <a href="iletisim.html">İletişim</a>
+  </div>
+
+  <!-- ICERIK ALANI BASLANGIC -->
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-breadcrumb">
+        <a href="index.html">Ana Sayfa</a>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+        <span>Hakkımızda</span>
+      </div>
+      <h1>Biz <em>Kimiz?</em></h1>
+      <p class="page-hero-desc">2014'ten bu yana iç mimari ve dekorasyon alanında uzman kadrosuyla kaliteli çözümler
+        sunan Omart Dekorasyon hakkında.</p>
+    </div>
+    <div class="page-hero-bar"></div>
+  </section>
+
+  <!-- ABOUT INTRO -->
+  <section class="about-intro">
+    <div class="about-intro-text">
+      <div class="section-label">Hakkımızda</div>
+      <h2>Kalite ve <em>Güvenin</em><br>Adresi</h2>
+      <p>2014 yılında kurulan <strong>OM ART DEKORASYON</strong>, inşaat sektöründe geçmişten gelen bilgi ve tecrübesi
+        doğrultusunda faaliyet göstermektedir.</p>
+      <p>Kısa sürede uzman bakış açısıyla gerçekleştirdiği projeler ile sektördeki yerini sağlamlaştırmıştır. Her
+        projede müşterinin beklentilerini merkezine alan yaklaşımımız, bizi sektörde ayrıştıran en temel özelliğimizdir.
+      </p>
+      <p>Müşterilerimizin kaliteyi yaşamalarını ve uzun zaman sonra memnuniyetlerinden bir şey kaybetmemeleri için
+        uluslararası kalite standartlarındaki markalarla avantajlı çözümler sunmaktayız.</p>
+      <a href="iletisim.html" class="btn-primary" style="margin-top:1rem;">Bize Ulaşın</a>
+    </div>
+    <div class="about-intro-visual">
+      <div class="about-intro-img-wrap">
+        <!-- Dekorasyon / mimari SVG illüstrasyonu -->
+        <svg viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:75%;opacity:0.8;">
+          <rect x="20" y="40" width="260" height="320" rx="2" fill="rgba(255,255,255,0.06)" />
+          <!-- pencere -->
+          <rect x="50" y="70" width="90" height="110" rx="1" fill="rgba(147,180,240,0.25)" />
+          <line x1="95" y1="70" x2="95" y2="180" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+          <line x1="50" y1="125" x2="140" y2="125" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+          <!-- kapı -->
+          <rect x="190" y="220" width="65" height="140" rx="1" fill="rgba(255,255,255,0.08)" />
+          <circle cx="198" cy="295" r="4" fill="rgba(147,180,240,0.5)" />
+          <!-- zemin çizgisi -->
+          <line x1="20" y1="360" x2="280" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+          <!-- mobilya: koltuk -->
+          <rect x="40" y="290" width="120" height="60" rx="3" fill="rgba(255,255,255,0.1)" />
+          <rect x="40" y="280" width="120" height="18" rx="2" fill="rgba(255,255,255,0.13)" />
+          <rect x="40" y="280" width="14" height="70" rx="2" fill="rgba(255,255,255,0.13)" />
+          <rect x="146" y="280" width="14" height="70" rx="2" fill="rgba(255,255,255,0.13)" />
+          <!-- sehpa -->
+          <rect x="70" y="345" width="60" height="10" rx="1" fill="rgba(255,255,255,0.1)" />
+          <!-- lamba -->
+          <line x1="230" y1="360" x2="230" y2="200" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+          <ellipse cx="230" cy="198" rx="22" ry="9" fill="rgba(147,180,240,0.3)" />
+          <!-- dekor çizgileri -->
+          <line x1="20" y1="200" x2="280" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="1"
+            stroke-dasharray="6 6" />
+        </svg>
+        <div class="about-intro-badge">
+          <strong>2014</strong>
+          <span>Kuruluş Yılı</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="values-strip">
+    <div class="section-label">Değerlerimiz</div>
+    <h2 class="section-title" style="max-width:100%;">Bizi <em>Farklı Kılan</em> Değerler</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <span class="value-num">01</span>
+        <h3>Kalite Odaklılık</h3>
+        <p>Uluslararası standartlardaki markalar ve malzemelerle her projede en yüksek kaliteyi garanti ediyoruz.
+          Kullandığımız her ürün titizlikle seçilir.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-num">02</span>
+        <h3>Müşteri Memnuniyeti</h3>
+        <p>Müşterilerimizin uzun vadeli memnuniyeti önceliğimizdir. Proje teslimi sonrasında da yanınızda olmaya devam
+          ediyoruz.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-num">03</span>
+        <h3>Uzman Kadro</h3>
+        <p>Alanında deneyimli mimar ve dekorasyon uzmanlarından oluşan ekibimiz, her projeye özgün ve profesyonel bir
+          bakış açısı katar.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-num">04</span>
+        <h3>Zamanında Teslimat</h3>
+        <p>Belirlenen proje takvimlerine ve bütçelere sadık kalarak işlerinizi aksatmadan, söz verilen sürede teslim
+          ediyoruz.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAND -->
+  <div class="stats-band">
+    <div class="stat-band-item">
+      <span class="stat-band-num">2014</span>
+      <span class="stat-band-label">Kuruluş Yılı</span>
+    </div>
+    <div class="stat-band-item">
+      <span class="stat-band-num">500+</span>
+      <span class="stat-band-label">Tamamlanan Proje</span>
+    </div>
+    <div class="stat-band-item">
+      <span class="stat-band-num">12+</span>
+      <span class="stat-band-label">Uzman Kadro</span>
+    </div>
+    <div class="stat-band-item">
+      <span class="stat-band-num">%100</span>
+      <span class="stat-band-label">Müşteri Memnuniyeti</span>
+    </div>
+  </div>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="section-label">Neden Biz?</div>
+    <h2 class="section-title">Omart'ı <em>Tercih Etmek</em><br>İçin 6 Neden</h2>
+    <div class="why-us-grid">
+      <div class="why-list">
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>20+ Yıllık Sektör Deneyimi</h4>
+            <p>2014'ten bu yana kazandığımız birikim ve uzmanlıkla her projeye donanımlı bir bakış açısı getiriyoruz.
+            </p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>Zamanında & Bütçe Dahilinde Teslimat</h4>
+            <p>Proje başında belirlenen takvim ve maliyetlere sıkı sıkıya bağlı kalıyoruz. Sürpriz yoktur.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>Uluslararası Kalite Standartları</h4>
+            <p>Kullandığımız tüm malzeme ve markalar uluslararası kalite standartlarını karşılar; uzun ömürlü ve estetik
+              sonuçlar garantilidir.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>Müşteri Odaklı Yaklaşım</h4>
+            <p>Her proje, müşterimizin ihtiyaç ve beklentileri etrafında şekillenir. Sizi dinliyor, birlikte
+              tasarlıyoruz.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>3D Görselleştirme ile Şeffaf Süreç</h4>
+            <p>Projenizi hayata geçirmeden önce 3D render ve görseller sunarak onayınızı alıyoruz. Hiçbir sürpriz yok.
+            </p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+          <div class="why-item-body">
+            <h4>Teslim Sonrası Destek</h4>
+            <p>Projeniz bittikten sonra da yanınızdayız. Olası sorunlarda hızlı ve etkili çözümler sunuyoruz.</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-quote-block">
+          <p>Müşterilerimizin kaliteyi yaşamalarını ve uzun zaman sonra memnuniyetlerinden bir şey kaybetmemeleri bizim
+            için en büyük başarıdır.</p>
+          <cite>— Omart Dekorasyon</cite>
+        </div>
+        <div class="why-cta-block">
+          <p>Projenizi birlikte değerlendirmek ve size en uygun çözümü sunmak için bizimle iletişime geçin. İlk görüşme
+            tamamen ücretsizdir.</p>
+          <a href="iletisim.html" class="btn-primary">Ücretsiz Keşif Talep Et</a>
+          <a href="faaliyet.html" class="btn-ghost">Faaliyet Alanlarımız</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ICERIK ALANI BITIS -->
+
+  <!-- FOOTER -->
+  <footer id="iletisim">
+    <div class="footer-brand">
+      <img src="logo.jpg" alt="Omart Dekorasyon" style="height:50px;width:auto;object-fit:contain;">
+      <p>20 yılı aşkın deneyimle Ankara'dan Türkiye'ye mekan tasarımı ve dekorasyon hizmetleri.</p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Sayfalar</h5>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="faaliyet.html">Faaliyet Alanları</a></li>
+        <li><a href="referanslar.html">Referanslar</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>İletişim</h5>
+      <div class="contact-boxes">
+        <a href="tel:+903123442829" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">Telefon</span>
+            <span class="contact-box-value">+90 (312) 344 28 29</span>
+          </div>
+        </a>
+        <a href="mailto:info@omartdekorasyon.com" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">E-posta</span>
+            <span class="contact-box-value">info@omartdekorasyon.com</span>
+          </div>
+        </a>
+        <a href="iletisim.html" class="contact-box">
+          <div class="contact-box-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contact-box-text">
+            <span class="contact-box-label">Adres</span>
+            <span class="contact-box-value">Ayvalı Mah. Gazze Cad. 52/B Etlik/ANKARA</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <p>© 2026 Omart Dekorasyon. Tüm hakları saklıdır.</p>
+    <p>Gizlilik Politikası · Kullanım Koşulları</p>
+  </div>
+
+  <script>
+    function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-card, .ref-card, .stat, .contact-box').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+
+</html>
